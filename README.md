@@ -11,7 +11,7 @@ This repository contains a simple containerized Nginx web server with a customiz
 - **Port Mapping:** Successfully mapped host port `8080` to container port `80` to enable local access.
 - **Troubleshooting:** Resolved local path issues and file extension conflicts on Windows (WSL2 environment).
 
-## 📝 Dockerfile Content
+##  Dockerfile Content
 ```dockerfile
 FROM nginx:latest
 RUN echo "<h1>Welcome to my GCP Project - Waad</h1>" > /usr/share/nginx/html/index.html
