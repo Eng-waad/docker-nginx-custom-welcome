@@ -28,3 +28,20 @@ Docker Desktop installation and configuration on Windows.
 Writing and troubleshooting Dockerfiles.
 
 Managing container lifecycles (Build, Run, Stop).
+
+##  Project Documentation & Screenshots
+
+Below is a description of the technical screenshots included in this repository (refer to the `Screenshots` folder):
+
+### 1. Build Process (Terminal)
+- **File:** `docker-build-terminal.png`
+- **Description:** Shows the successful execution of the `docker build` command, creating the custom Nginx image with the embedded welcome message.
+
+### 2. Container Status (Docker Dashboard)
+- **File:** `running-container-status.png`
+- **Description:** Verifies that the container is active and stable within the Docker Desktop environment.
+
+### 3. Final Web Output (Success)
+- **File:** `web-page-result.png`
+- **Description:** The final result as seen in the browser at `localhost:8080`, displaying the customized "Welcome" header.
+
