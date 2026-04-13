@@ -10,6 +10,13 @@ This repository contains a simple containerized Nginx web server with a customiz
 - **Environment Customization:** Overrode the default Nginx landing page using the `RUN` command to display a personalized greeting.
 - **Port Mapping:** Successfully mapped host port `8080` to container port `80` to enable local access.
 - **Troubleshooting:** Resolved local path issues and file extension conflicts on Windows (WSL2 environment).
+
+## 📝 Dockerfile Content
+```dockerfile
+FROM nginx:latest
+RUN echo "<h1>Welcome to my GCP Project - Waad</h1>" > /usr/share/nginx/html/index.html
+EXPOSE 80
+  
 ## How to Run Locally
 
 1. **Build the Image:**
